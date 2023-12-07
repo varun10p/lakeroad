@@ -93,6 +93,7 @@ parser.add_argument(
     default=[],
     action="append",
 )
+
 parser.add_argument(
     "--boolector",
     action=argparse.BooleanOptionalAction,
